@@ -50,7 +50,7 @@
             </div>
             <div >
               <label for="role_job">Role Job</label>
-              <select id="role_job" required class=>
+              <select id="role_job" required >
                 <option value="" selected>Select Option</option>
                 <option value="Frontend">Frontend Developer</option>
                 <option value="Backend">Backend Developer</option>
@@ -72,7 +72,7 @@
             </div>
             <div >
                 <label for="pincode">Pincode</label>
-                <input type="number" name="pincode" id="pincode" required >
+                <input type="number" name="pincode" id="pincode"  pattern="\d{6}" required >
             </div>
           </div>
           <div class="div_name">
@@ -83,7 +83,7 @@
             </div>
             <div class="uploade">
                 <label for="upload">Upload Your CV</label>
-                <input type="file" name="cv_upload" id="upload" >
+                <input type="file" name="cv_upload" accept=".pdf,.doc,.docx" id="upload" >
             </div>
           </div>
           <div class="div_name div_button">
