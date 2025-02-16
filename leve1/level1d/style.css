@@ -1,0 +1,142 @@
+*{padding: 0;margin: 0;box-sizing: border-box;
+font-family:  'Inter', sans-serif;}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#div_header{width: 100%;height: 65%;
+    
+}
+#div_header h1{
+    padding: 5% 5%;
+    font-size: 140px;
+    line-height: 135px;
+    letter-spacing: -5px;
+    font-weight: 600;
+}
+#place{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 34%;
+    padding-left: 70px;
+    padding-right: 70px;
+   
+    
+    display: flex;
+    justify-content: space-between;
+   
+} 
+#place h3{
+    font-size: 25px;
+}
+#place div{
+    display: flex;
+}
+#place div i{
+
+margin-right: 8px;
+margin-top:-4px;
+    
+    font-size: 37px;
+}
+#model_image{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.div_nav{ 
+    position:fixed;
+    padding: 40px 40px;
+    
+    
+ 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 999;
+}
+
+.div_nav i{
+    border-radius: 50%;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+.div_nav h4{
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    font-size: 25px;
+    width: 100px; 
+    height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+  
+   
+}   
+#div_about{ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#div_about h2{
+    margin-top: -60px;
+    margin-left: 80px;
+   
+    line-height: 75px;
+    
+    font-size: 85px;
+    width: 60%;
+font-weight: 700;
+}
+#div_about_div{ 
+    margin-top: -100px;
+    border-left: 2px solid black;
+    width: 40%;height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  
+}
+#div_about_div h4{
+    
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#div_about_div_icon i{padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+#div_about_div_icon{
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+hr{margin-left: 50px;
+    position: absolute;
+    top: 255%;
+     
+    width: 92%;
+    background-color: black;
+    height: 3.5px;
+}
