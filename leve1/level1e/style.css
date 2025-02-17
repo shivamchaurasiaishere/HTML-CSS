@@ -1,0 +1,120 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    font-family: gilroy;
+    width: 100%;
+    height: 100%;
+}
+header{margin-top: 2vh;
+    padding: 2vh 3vw;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header #div1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+}
+header div i{
+    display: none;
+}
+nav ul{
+    font-size: 1.5vw;
+    list-style: none;
+    display: flex;
+ align-items: center;
+    justify-content: center;
+gap:2vw;
+
+}
+header div{
+    gap: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header #div2{
+font-size: 1vw;
+}
+header #div2 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 2vw;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #div_left{
+    font-size: 2vw;
+    padding: 10vw;
+    line-height: 10vh;
+}
+img{
+    width: 50vw;
+    mix-blend-mode: multiply;
+    transform:scalex(-1)
+    
+}
+button{
+    font-size: 1.5vw;
+    border-radius: 2px;
+    border: none;
+    margin-top: 5vw;
+    width: 8vw;
+    height: 6vh;
+    background-color: black;
+    color: white;
+}
+@media(max-width:600px)  {
+    header{
+        padding: 2vh;
+
+    }
+nav ul{
+    display: none;
+}
+header #div1{
+    font-size: 5vw;
+    gap: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header #div2{
+    display: none;
+}
+header div i{
+    font-size:7vw;
+    display: block;
+}
+main #div_left{
+    font-size: 3vw;
+    padding: 5vw;
+    line-height: 5vh;
+}
+button{
+    font-size: 2.5vw;
+    border-radius: 2px;
+    border: none;
+    margin-top: 5vw;
+    width: 15vw;
+    height: 3vh;
+    background-color: black;
+    color: white;
+}
+
+}
