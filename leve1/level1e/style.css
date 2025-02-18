@@ -53,10 +53,37 @@ header #div2 h3 {
 }
 
 main{
+
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   
+}
+#main_div1{
+ 
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
+#main_div2{
+width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    flex-wrap: wrap;
+}
+#main_div3{
+    width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+       
+        flex-wrap: wrap;
+    }
 main #div_left{
     font-size: 2vw;
     padding: 10vw;
@@ -77,6 +104,54 @@ button{
     height: 6vh;
     background-color: black;
     color: white;
+}
+
+.main_div_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 30vw;
+    height: 30vw
+}
+.main_div_div i{
+    font-size: 15vw;
+}
+.main_div_div h2{
+    font-size: 3vw;
+}
+main div #main_div_div2 h2{
+    margin-left: -40px;
+}
+
+.main_div_div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 30vw;
+    height: 30vw
+}
+
+#main_div3{
+
+    margin-top: 10px;
+}
+ #main_div3 .main_div_div img{
+width: 13vw;
+}
+ #main_div3 .main_div_div h2{
+    margin-top: 5vh;
+    font-size: 3vw;
+}
+main div #main_div_div2 h2{
+    margin-left: -40px;
+}
+#main_div3 .main_div_div img{
+    transform: scaley(-1);
 }
 @media(max-width:600px)  {
     header{
@@ -115,6 +190,14 @@ button{
     height: 3vh;
     background-color: black;
     color: white;
+    
+}
+main div #main_div_div2 h2{
+    margin-left: -10px;
+}
+#main_div3 .main_div_div h2{
+    margin-top: 1.5vh;
+    font-size: 3vw;
 }
 
 }
