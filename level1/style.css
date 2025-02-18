@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color:#242020cb;
+}
+header{
+    gap: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+  
+    padding: 10vh 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+}
+#linetop{
+    position: relative;
+    
+    margin-top: 3.4vh;
+    margin-left: -5vw;
+    background-color:white;
+    width: 40%;
+    height: 2px;
+}
+nav #ul1 {
+    list-style: none;
+    gap: 60px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: end;
+}
+nav ul li, a{
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    font-size: 4vh;
+    font-weight: 100    ;
+}
+nav ul :hover{
+    color: black;
+  
+}
+
+nav ul li #dropdown_menu {
+  
+    top: 16%;
+    left: 50%;
+    display:none;
+    width: 14vw;
+ 
+    list-style: none;
+    position: absolute;
+}
+nav ul li #dropdown_menu li{
+    text-align: center;
+    font-size: 4vh;
+ padding: 1vh;
+   
+}
+
+#dropdown:hover #dropdown_menu{
+display: block;
+
+    
+}
+
+header div h1{
+    font-size: 12vw;
+}
+header div #divdot{
+    display: flex;
+justify-content: start;
+ margin-left: -33vw;
+}
+header div #divdot .dot{
+    margin: 2vh 1vh;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 1vw;
+    height: 1vw;
+}
+
+header div div{
+    margin-top: -3vh;
+}
+header div div #line{
+    background-color: white;
+    width: 60vw;
+    height: 2px;
+margin-right: -550px;
+
+}
+@media(max-width: 800px){
+    header{
+        gap: 20vh;
+       
+    }
+    #linetop{
+        position: absolute;
+        margin-top: -20px;
+        width: 100%;
+      
+    }
+    nav #ul1 {
+        gap: 15px;
+        
+    }
+    nav ul li{
+        font-size: 1.5vh;
+        
+    }
+    nav ul li #dropdown_menu {
+        top: 14%;
+        left: 25%;
+        width: 20vw;
+        }
+
+        nav ul li #dropdown_menu li{
+            font-size: 2vh;
+         padding: 0.5vh;
+           
+        }
+        header div #divdot{
+            display: flex;
+        justify-content: start;
+         margin-left: -33vw;
+        }
+        header div #divdot .dot{
+            margin: 2vh 1vh;
+            border-radius: 100%;
+            
+            width: 1vw;
+            height: 1vw;
+        }
+        
+        header div #divdot{
+            display: flex;
+        justify-content: start;
+         margin-left: 40vw;
+        }
+        header div #divdot .dot{
+            margin: 2vh 1vh;
+           
+           
+            width: 2vw;
+            height: 2vw;
+        }
+        header div div{
+            margin-top: 0vh;
+        }
+        header div div #line{
+           
+            width: 100vw;
+           
+        margin-right: 0px;
+        
+        }
+}
