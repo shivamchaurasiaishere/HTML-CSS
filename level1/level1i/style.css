@@ -1,0 +1,164 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+
+}
+#branddiv{
+    gap: 2%;
+    width:100%;
+    height: 100%;
+overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#branddiv h1{
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    font-size: 500%;
+}
+#branddiv #brand2{
+   z-index: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.616);
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+}
+#img_div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    width: 30%;
+    height: 80%;
+}
+#main_content{
+    position: absolute;
+    
+}
+#div1{
+    padding: 2% 4%;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+#div1_div1{
+white-space: nowrap;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#div1_div1 h4{
+    text-align: center;
+   font-size: 80%;
+
+}
+#div1_div2{
+margin-left: -10%;
+font-size: 150%;
+color: gold;
+}
+#div1_div3{
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#div2{
+    padding: 4% 5%;
+    display: flex;
+    
+}
+#div2_div1{
+    margin-top: -2%;
+    margin-left: -2%;
+}
+#div2_div2{
+   text-align: center;
+    margin-left:20%;
+    width: 55%;
+}
+
+#div3{
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+#div3_div1 div {
+    margin-left: -3%;
+    width: 30%;
+    font-size: 80%;
+}
+#div3_div1 div h3{
+    color: rgb(187, 160, 5);
+}
+#div3_div1 div h6{
+    margin-top: 2%;
+}
+#div3_div2{
+    width: 10%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    #img_div img{
+        
+        background-repeat: no-repeat;
+ background-position-x: 50%;
+        background-size: cover;
+        width: 50%;
+        height: 70%;
+    }
+    #div1_div1 h4{
+        display: none;
+    
+    }
+    #div1_div2{
+        margin-top: 15%;
+        margin-left: 0%;
+        
+        }
+        #div2_div2{
+            margin-top: 10%;
+            margin-left: 5%;
+            width: 80%;
+            font-size: 50%;
+        }
+        #div3{
+            padding: 0% 5%;
+            
+            margin-top: 70%;
+        }
+        #div3_div1 div {
+            margin-top:40%;
+            width: 80%;
+           
+        }
+        #div3_div1 div h6{
+            margin-top: -30%;
+        }
+        #div3_div2{
+           
+            width: 30%;
+            margin-top: 50%;
+            text-align: start;
+        }
+}
